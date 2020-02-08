@@ -56,16 +56,16 @@ module.exports = {
         component: require.resolve(`./src/layouts/`)
       }
     },
-    {
-      resolve: `gatsby-plugin-algolia`,
-      options: {
-        appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-        apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
-        indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
-        queries,
-        chunkSize: 10000 // default: 1000
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-algolia`,
+    //   options: {
+    //     appId:  "OG7S7GX1VJ",
+    //     apiKey:  "61c473fef09f80673b01832bda6fb410",
+    //     // indexName: "61c473fef09f80673b01832bda6fb410",
+    //     queries,
+    //     chunkSize: 10000 // default: 1000
+    //   }
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
