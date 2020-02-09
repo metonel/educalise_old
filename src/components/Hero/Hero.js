@@ -10,8 +10,24 @@ const Hero = props => {
     <React.Fragment>
       <section className="hero">
         <h1>
-          This is a demo site of&nbsp;the <strong>heroBlog</strong> GatsbyJS starter
+          Misiune
         </h1>
+        <h2>
+          Cream oportunitati pentru copii si tineri, pentru a le sprijini accesul laeducatie si programe de sanatate.
+        </h2>
+        
+        <h1>
+          Viziune
+        </h1>
+        <h2>
+          Un viitor mai bun pentru copii si tinerieste o Romanie mai buna.
+        </h2>
+        <h1>
+          Scop
+        </h1>
+        <h2>
+          Fiecare copil merita o sansa.
+        </h2>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
         </button>
@@ -40,6 +56,30 @@ const Hero = props => {
           margin: ${theme.space.stack.l};
           color: ${theme.hero.h1.color};
           line-height: ${theme.hero.h1.lineHeight};
+          text-remove-gap: both 0 "Open Sans";
+
+          :global(strong) {
+            position: relative;
+
+            &::after,
+            &::before {
+              content: "›";
+              color: ${theme.text.color.attention};
+              margin: 0 ${theme.space.xs} 0 0;
+              text-shadow: 0 0 ${theme.space.s} ${theme.color.neutral.gray.k};
+            }
+            &::after {
+              content: "‹";
+              margin: 0 0 0 ${theme.space.xs};
+            }
+          }
+        }
+        h2 {
+          text-align: center;
+          font-size: ${theme.hero.h2.size};
+          margin: ${theme.space.stack.l};
+          color: ${theme.hero.h2.color};
+          line-height: ${theme.hero.h2.lineHeight};
           text-remove-gap: both 0 "Open Sans";
 
           :global(strong) {

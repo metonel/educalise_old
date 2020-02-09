@@ -1,19 +1,19 @@
 module.exports = {
-  siteTitle: "HeroBlog - a GatsbyJS starter", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteTitle: "Educalise", // <title>
+  shortSiteTitle: "Educalise", // <title> ending for posts and pages
+  siteDescription: "asociatia Educalise Cluj Napoca",
+  siteUrl: "https://educalise.ro",
   // pathPrefix: "",
   siteImage: "preview.jpg",
-  siteLanguage: "en",
+  siteLanguage: "ro",
 
   /* author */
-  authorName: "greg lobinski",
+  authorName: "Antonio Nemtisor",
   authorTwitterAccount: "greglobinski",
 
   /* info */
-  headerTitle: "greg lobinski",
-  headerSubTitle: "presents another one GatsbyJS starter",
+  headerTitle: "Educalise",
+  headerSubTitle: "asociatia educalise Cluj Napoca",
 
   /* manifest.json */
   manifestName: "HeroBlog - a GatsbyJS starter",

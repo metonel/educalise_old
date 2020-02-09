@@ -9,6 +9,7 @@ const Blog = props => {
   return (
     <React.Fragment>
       <main className="main">
+        Proiecte
         <ul>
           {posts.map(post => {
             const {
